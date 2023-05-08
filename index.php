@@ -1,6 +1,6 @@
 <?php
 
-$token = "TOKEN_BOT_TELEGRAM";
+$token = "6064499783:AAFE5igifDGWLTRShyzm6H_P2D9oora4fRY";
 $apiURL = "https://api.telegram.org/bot{$token}/";
 
 $update = json_decode(file_get_contents("php://input"), true);
